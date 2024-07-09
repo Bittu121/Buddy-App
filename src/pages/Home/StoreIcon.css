@@ -1,0 +1,39 @@
+/* ==============Store Icons ==============*/
+.store-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 5vh;
+  margin-bottom: 13vh;
+}
+.store-icon {
+  width: 11.59;
+  height: 7.93vh;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .store-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 5vh;
+    margin-bottom: 25vh;
+  }
+  .store-icon {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .store-icons-container {
+    margin-bottom: 25vh;
+  }
+  .store-icon {
+    width: 100%;
+    max-width: 24vw;
+    height: auto;
+  }
+}

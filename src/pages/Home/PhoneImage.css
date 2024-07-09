@@ -1,0 +1,47 @@
+.iphone-image img {
+  margin-top: 14vh;
+    width: 98.5vw;
+  /* margin-top: 12vh;
+  width: 134vw; */
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .iphone-image img {
+    margin-top: 5vh;
+    /* width: 134vw; */
+    width: 98.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .iphone-image img {
+    margin-top: 5vh;
+    /* width: 134vw; */
+    width: 98.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .iphone-image img {
+    margin-top: 5vh;
+    /* width: 134vw; */
+    width: 98.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .iphone-image img {
+    margin-top: 5vh;
+    /* width: 134vw; */
+    width: 98.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,202 @@
+.team-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1.5vw;
+}
+.team-intro #team-intro-one {
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.32px;
+  letter-spacing: 0.0047em;
+  color: rgba(0, 0, 0, 1);
+  width: 28vw;
+  height: 19vh;
+}
+.team-intro #team-intro-second {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29.05px;
+  letter-spacing: -0.04em;
+  color: rgba(88, 88, 90, 1);
+  width: 28vw;
+  height: 14vh;
+  margin-top: 8vh;
+}
+
+.team-button {
+  width: 11.5vw;
+  height: 8vh;
+  margin-top: 14vh;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(
+    91.29deg,
+    #3d5a80 0%,
+    #5cad64 110.17%,
+    rgba(61, 155, 254, 0.88) 128.98%
+  );
+  color: #fff;
+  cursor: pointer;
+}
+.button-text {
+  width: 6vw;
+  height: 3vh;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*============== Responsive=========== */
+
+@media (max-width: 480px) {
+  .team-description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .team-intro #team-intro-one {
+    width: 80vw;
+    height: auto;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .team-intro #team-intro-second {
+    width: 80vw;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 4vh;
+  }
+
+  .team-button {
+    width: 80vw;
+    height: auto;
+    margin-top: 8vh;
+  }
+
+  .button-text {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .team-description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .team-intro #team-intro-one {
+    width: 70vw;
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
+  .team-intro #team-intro-second {
+    width: 70vw;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 4vh;
+  }
+  .team-button {
+    width: 70vw;
+    margin-top: 8vh;
+  }
+
+  .button-text {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .team-description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .team-intro #team-intro-one {
+    width: 70vw;
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
+  .team-intro #team-intro-second {
+    width: 70vw;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 4vh;
+  }
+  .team-button {
+    width: 70vw;
+    margin-top: 8vh;
+  }
+  .button-text {
+    font-size: 30px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .team-intro #team-intro-second {
+    margin-top: 12vh;
+  }
+  .team-button {
+    width: 16vw;
+  }
+  .button-text {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .team-button {
+    width: 16vw;
+  }
+  .button-text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .team-intro #team-intro-one {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .team-intro #team-intro-second {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .button-text {
+    font-size: 20px;
+  }
+}
+
+/* Large screen */
+@media (min-width: 1921px) {
+  .team-intro #team-intro-one {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .team-intro #team-intro-second {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .button-text {
+    width: 12vw;
+    height: 6vh;
+    font-family: Lato;
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,355 @@
+/* ==============css for Going out============ */
+
+/*
+  .categoryArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .categoryArrow p {
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(92, 173, 100, 1);
+  }
+   */
+.navigationSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12vh;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.assistanceArrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10vh;
+  margin-left: 2vw;
+  margin-right: 3vw;
+}
+.assistanceArrow p {
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(61, 90, 128, 1);
+  margin-top: 4vh;
+}
+
+.assistanceArrow img {
+  margin-top: 4vh;
+}
+
+.goingOutSubsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(92, 173, 100, 1);
+  width: 43vw;
+  height: 127vh;
+  border-radius: 4px;
+  margin-left: 6.7vw;
+}
+.goingOutSubsection h2 {
+  font-family: Outfit;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-top: 12vh;
+}
+.goingOutSubsection img {
+  width: 22vw;
+  height: 111vh;
+}
+/*============ Responsive=========== */
+
+@media (max-width: 480px) {
+  .navigationSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  .goingOutSubsection {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+
+  .goingOutSubsection h2 {
+    font-size: 28px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .goingOutSubsection img {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1.3vh;
+  }
+  .categoryArrow {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  .assistanceArrow p {
+    font-size: 22px;
+    margin-top: 2vh;
+  }
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  .navigationSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  .goingOutSubsection {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+
+  .goingOutSubsection h2 {
+    font-size: 32px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .goingOutSubsection img {
+    width: 80%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1.3vh;
+  }
+  .categoryArrow {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  .assistanceArrow p {
+    font-size: 26px;
+    margin-top: 2vh;
+  }
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .navigationSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  .goingOutSubsection {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+
+  .goingOutSubsection h2 {
+    font-size: 32px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .goingOutSubsection img {
+    width: 70%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1vh;
+  }
+  .categoryArrow {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  .assistanceArrow p {
+    font-size: 32px;
+    margin-top: 2vh;
+  }
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .navigationSection {
+    flex-direction: row;
+    margin-top: 6vh;
+  }
+
+  .assistanceArrow {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 0;
+    margin-right: 6vw;
+  }
+
+  .assistanceArrow p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+
+  .goingOutSubsection {
+    width: 40vw;
+    height: auto;
+    margin-left: 6vw;
+    padding: 2vh 0;
+  }
+
+  .goingOutSubsection h2 {
+    font-size: 30px;
+    margin-top: 6vh;
+  }
+
+  .goingOutSubsection img {
+    width: 50vw;
+    height: 80vh;
+    margin-bottom: -2vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navigationSection {
+    flex-direction: row;
+    margin-top: 6vh;
+  }
+
+  .assistanceArrow {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 6vw;
+  }
+
+  .assistanceArrow p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+
+  .goingOutSubsection {
+    width: 40vw;
+    height: auto;
+    margin-left: 5vw;
+    padding: 2vh 0;
+  }
+
+  .goingOutSubsection h2 {
+    font-size: 35px;
+    margin-top: 4vh;
+  }
+
+  .goingOutSubsection img {
+    width: 50vw;
+    height: 80vh;
+    margin-bottom: -2vh;
+  }
+}
+
+@media (min-width: 1728px) {
+  .goingOutSubsection {
+    margin-left: 9vw;
+  }
+  .assistanceArrow p {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1729px) and (max-width: 1920px) {
+  .goingOutSubsection {
+    margin-left: 9.5vw;
+  }
+  .assistanceArrow p {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1921px) {
+  .assistanceArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-right: 3vw;
+  }
+  .assistanceArrow p {
+    font-size: 50px;
+    margin-top: 4vh;
+  }
+
+  .assistanceArrow img {
+    margin-top: 4vh;
+  }
+
+  .goingOutSubsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43vw;
+    height: 120vh;
+    margin-left: 12vw;
+  }
+  .goingOutSubsection h2 {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 8vh;
+  }
+  .goingOutSubsection img {
+    width: 25vw;
+    height: 118vh;
+    margin-top: 8vh;
+  }
+}

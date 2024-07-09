@@ -1,0 +1,52 @@
+/* Emergency Section */
+.emergency-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14.5vh;
+}
+.emergency-text {
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55px;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .emergency-text {
+    width: 90%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px)and(max-width: 768px) {
+  .emergency-container {
+    margin-bottom: 5vh;
+  }
+  .emergency-text {
+    width: 100%;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .emergency-text {
+    width: 90%;
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 1921px) {
+  .emergency-text {
+    font-family: Outfit;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 55px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,123 @@
+.pageNotFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.PageNotFoundHeading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#PageNotFoundBtn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 376px) and (max-width: 480px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .pageNotFoundContainer {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .PageNotFoundHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #PageNotFoundBtn {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}

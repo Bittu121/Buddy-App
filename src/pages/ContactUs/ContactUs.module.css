@@ -1,0 +1,844 @@
+.contactPageHeader {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+}
+.contactSection {
+  display: flex;
+  gap: 64px;
+  overflow-x: hidden; 
+}
+.contactFormContainer {
+  margin-top: 8vh;
+  margin-left: 2vw;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.formHeader h3 {
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(88, 88, 90, 1);
+}
+.formHeader p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(88, 88, 90, 1);
+}
+.formContent form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.formBody {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.formFields {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.firstNameInput {
+  display: flex;
+  flex-direction: column;
+}
+.firstNameInput label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(52, 64, 84, 1);
+}
+.firstName input {
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(208, 213, 221, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.lastNameInput label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(52, 64, 84, 1);
+}
+
+.lastName input {
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(208, 213, 221, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.emailInput label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(52, 64, 84, 1);
+}
+.email input {
+  width: 100%;
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(208, 213, 221, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.phoneInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.phoneInput label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(52, 64, 84, 1);
+}
+.phoneNumberInput {
+  display: flex;
+  flex-direction: row;
+  /* Remove space between */
+  /* justify-content: space-between; */
+  border-radius: 5px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(208, 213, 221, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.phoneNumberInput select {
+  border: none;
+  padding: 12px 12px 12px 16px;
+  /* Add width */
+  width: 50%;
+}
+.phoneNumberInputField {
+  padding: 12px 16px 12px 0px;
+}
+.phoneNumberInputField input {
+  width: 200pxvw;
+  height: 3.2vh;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(102, 112, 133, 1);
+  outline: none;
+  border: none;
+}
+
+.messageInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.messageInput label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(52, 64, 84, 1);
+}
+.messageInputGroup textarea {
+  padding: 10px 14px 10px 14px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+textarea {
+  resize: none;
+}
+.privacyAgreement {
+  display: flex;
+  align-items: center;
+  font-family: Raleway;
+  color: rgba(102, 112, 133, 1);
+}
+
+.privacyAgreement input {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(208, 213, 221, 1);
+  margin-right: 8px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  background: linear-gradient(
+    91.29deg,
+    #3d5a80 0%,
+    #5cad64 110.17%,
+    rgba(61, 155, 254, 0.88) 128.98%
+  );
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactImageContainer img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 2vw;
+}
+
+/* ============Responsive============= */
+@media (max-width: 480px) {
+  .contactSection {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .contactFormContainer {
+    margin: 0 auto;
+    width: 80%;
+    /* for mobile view, fixed navbar */
+    /* margin-top: 4vh;  */
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-right: 5vw;
+    /* for mobile view, fixed navbar */
+    margin-bottom: 4vh;
+  }
+
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .formFields label {
+    font-size: 18px;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 18px;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .contactSection {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contactFormContainer {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-right: 5vw;
+    margin-bottom: 6vh; /* for mobile view, fixed navbar */
+  }
+
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+  }
+
+  .formFields label {
+    font-size: 16px;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .contactSection {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contactFormContainer {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-right: 5vw;
+  }
+
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+    /* for mobile view, fixed navbar */
+    margin-bottom: 10vh;
+  }
+
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    /* padding: 10px; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 3vw;
+  }
+  .formHeader h3 {
+    font-size: 40px;
+  }
+  .formHeader p {
+    font-size: 22px;
+  }
+  .formFields label {
+    font-size: 22px;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 22px;
+  }
+  /* increase placeholder text fontsize */
+  .firstNameInput input::placeholder,
+  .lastNameInput input::placeholder,
+  .email input::placeholder,
+  .phoneNumberInputField input::placeholder,
+  .messageInputGroup textarea::placeholder {
+    font-size: 22px;
+  }
+  /* increase size of input and label, privacy agreement */
+  .privacyAgreement input {
+    width: 24px;
+    height: 24px;
+  }
+  .privacyAgreement label {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contactSection {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contactFormContainer {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-right: 5vw;
+  }
+
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    /* padding: 10px; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 3vw;
+  }
+
+  .formHeader h3 {
+    font-size: 40px;
+  }
+  .formHeader p {
+    font-size: 22px;
+  }
+
+  .formFields label {
+    font-size: 24px;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 24px;
+  }
+
+  .firstNameInput input::placeholder,
+  .lastNameInput input::placeholder,
+  .email input::placeholder,
+  .phoneNumberInputField input::placeholder,
+  .messageInputGroup textarea::placeholder {
+    font-size: 20px;
+  }
+
+  .privacyAgreement input {
+    width: 24px;
+    height: 24px;
+  }
+  .privacyAgreement label {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .contactSection {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .contactFormContainer {
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 50%;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+  }
+  button[type="submit"] {
+    font-size: 20px;
+  }
+  .formHeader h3 {
+    font-size: 36px;
+  }
+  .formHeader p {
+    font-size: 20px;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 18px;
+  }
+
+  .firstNameInput input::placeholder,
+  .lastNameInput input::placeholder,
+  .email input::placeholder,
+  .phoneNumberInputField input::placeholder,
+  .messageInputGroup textarea::placeholder {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .contactFormContainer {
+    margin-left: 0;
+  }
+  .contactSection {
+    display: flex;
+    gap: 8vw;
+  }
+  .firstNameInput label,
+  .lastNameInput label,
+  .emailInput label,
+  .phoneInput label,
+  .messageInput label {
+    font-size: 16px;
+  }
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .firstNameInput input::placeholder,
+  .lastNameInput input::placeholder,
+  .email input::placeholder,
+  .phoneNumberInputField input::placeholder,
+  .messageInputGroup textarea::placeholder {
+    font-size: 16px;
+  }
+  .privacyAgreement label {
+    font-size: 16px;
+  }
+  button[type="submit"] {
+    font-size: 16px;
+  }
+}
+
+/* Large screen */
+/* @media (min-width: 1921px) {
+  .contactFormContainer {
+    margin: 0 auto;
+    height: auto;
+    padding: 80px;
+  }
+  .contactForm {
+    width: 100%;
+    font-size: 24px;
+  }
+  .formHeader h3 {
+    font-size: 70px;
+  }
+  .formHeader p {
+    font-size: 40px;
+  }
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .phoneNumberInputField input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .firstNameInput label {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgba(52, 64, 84, 1);
+  }
+  .lastNameInput label {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(52, 64, 84, 1);
+  }
+  .emailInput label {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(52, 64, 84, 1);
+  }
+  .phoneInput label {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(52, 64, 84, 1);
+    margin-bottom: 12px;
+  }
+  .messageInput label {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(52, 64, 84, 1);
+    margin-bottom: 12px;
+  }
+  .phoneNumberInputField input {
+    width: 200px;
+    height: 3.2vh;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(102, 112, 133, 1);
+    outline: none;
+    border: none;
+  }
+  .phoneInput,
+  .messageInput {
+    width: 100%;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 35px;
+  }
+  .contactImageContainer {
+    margin: 0 auto;
+    max-width: 60%;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .contactImageContainer img {
+    width: 100%;
+    height: auto;
+  }
+  .privacyAgreement {
+    font-size: 35px;
+  }
+  .privacyAgreement input {
+    transform: scale(1.5);
+  }
+  .phoneNumberInput select {
+    border: none;
+    padding: 12px 12px;
+    font-size: 18px;
+  }
+} */
+
+@media (min-width: 1921px) {
+  .contactPageHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+  }
+  .contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+  .contactFormContainer {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .formHeader h3 {
+    font-size: 70px;
+  }
+  .formHeader p {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 1vh;
+  }
+  .formContent form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .formBody {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .firstNameInput label,
+  .lastNameInput label,
+  .phoneInput label,
+  .emailInput label,
+  .messageInput label {
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+  .firstNameInput input,
+  .lastNameInput input,
+  .email input,
+  .phoneNumberInputField input,
+  .messageInputGroup textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .privacyAgreement {
+    font-size: 35px;
+  }
+
+  .privacyAgreement input {
+    transform: scale(1.5);
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    font-size: 35px;
+  }
+  .phoneNumberInput select {
+    border: none;
+    padding: 12px;
+    font-size: 24px;
+    width: 33%;
+  }
+  .contactImageContainer img {
+    max-width: 100%;
+    height: 70vh;
+    margin-left: 10vw;
+  }
+  .firstNameInput input::placeholder,
+  .lastNameInput input::placeholder,
+  .email input::placeholder,
+  .phoneNumberInputField input::placeholder,
+  .messageInputGroup textarea::placeholder {
+    font-size: 24px;
+  }
+}

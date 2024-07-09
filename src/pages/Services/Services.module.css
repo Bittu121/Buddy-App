@@ -1,0 +1,374 @@
+/* ============css for service container ============*/
+.servicesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ==========css for General assistance ========*/
+.assistanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 12vh;
+}
+.generalAssistance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 43vw;
+  height: 120vh;
+  border-radius: 4px;
+  background: rgba(61, 90, 128, 1);
+  margin-right: 11vw;
+}
+
+.generalAssistance h2 {
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 8vh;
+}
+.generalAssistance img {
+  width: 25vw;
+  height: 118vh;
+  margin-top: 8vh;
+}
+.assistanceContainerContent {
+  display: flex;
+  flex-direction: column;
+}
+.assistanceArrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10vh;
+  margin-right: 2.5vw;
+}
+.assistanceArrow p {
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(61, 90, 128, 1);
+  margin-top: 4vh;
+}
+.assistanceArrow img {
+  margin-top: 4vh;
+}
+
+/* =============css for Responsive========== */
+
+@media (max-width: 480px) {
+  .servicesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .assistanceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .generalAssistance {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+
+  .generalAssistance h2 {
+    font-size: 28px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .generalAssistance img {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1.3vh;
+  }
+
+  .assistanceContainerContent {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+
+  .assistanceArrow p {
+    font-size: 22px;
+    margin-top: 2vh;
+  }
+
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  .servicesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .assistanceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .generalAssistance {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+  .generalAssistance h2 {
+    font-size: 32px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .generalAssistance img {
+    width: 80%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1.3vh;
+  }
+
+  .assistanceContainerContent {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+
+  .assistanceArrow p {
+    font-size: 26px;
+    margin-top: 2vh;
+  }
+
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .servicesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .assistanceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .generalAssistance {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 2vh auto;
+  }
+  .generalAssistance h2 {
+    font-size: 32px;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .generalAssistance img {
+    width: 70%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: -1vh;
+  }
+
+  .assistanceContainerContent {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+
+  .assistanceArrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+
+  .assistanceArrow p {
+    font-size: 32px;
+    margin-top: 2vh;
+  }
+
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .generalAssistance {
+    width: 40vw;
+    height: auto;
+    margin-left: 5vw;
+    padding: 2vh 0;
+  }
+
+  .generalAssistance h2 {
+    font-size: 30px;
+    margin-top: 6vh;
+  }
+  .generalAssistance img {
+    width: 50vw;
+    height: 80vh;
+    margin-bottom: -2vh;
+  }
+  .assistanceContainerContent {
+    margin-top: 6vh;
+  }
+  .assistanceArrow {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 0;
+    margin-right: 8vw;
+  }
+  .assistanceArrow p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 24px;
+  }
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .assistanceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .generalAssistance {
+    width: 40vw;
+    height: auto;
+    margin-left: 5vw;
+    padding: 2vh 0;
+  }
+  .generalAssistance h2 {
+    font-size: 35px;
+    margin-top: 4vh;
+  }
+  .generalAssistance img {
+    width: 50vw;
+    height: 80vh;
+    margin-bottom: -2vh;
+  }
+  .assistanceContainerContent {
+    margin-top: 2vh;
+    margin-left: 0;
+  }
+  .assistanceArrow {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 6vw;
+  }
+  .assistanceArrow p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 24px;
+  }
+  .assistanceArrow img {
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 1728px) {
+  .generalAssistance {
+    margin-right: 13vw;
+  }
+  .generalAssistance img {
+    margin-top: 1vh;
+  }
+  .assistanceArrow p {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1729px) and (max-width: 1920px) {
+  .generalAssistance {
+    margin-right: 13vw;
+  }
+  .generalAssistance img {
+    margin-top: 4vh;
+  }
+  .assistanceArrow p {
+    font-size: 40px;
+  }
+}
+/* Large screen  */
+@media (min-width: 1921px) {
+  .assistanceArrow p {
+    font-family: Outfit;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(61, 90, 128, 1);
+    margin-top: 4vh;
+  }
+}
+
+@media (min-width: 1921px) {
+  .generalAssistance{
+    margin-right: 16vw;
+  }
+  .generalAssistance h2 {
+    font-size: 90px;
+    margin-top: 8vh;
+  }
+  .generalAssistance img {
+    width: 25vw;
+    height: 118vh;
+    margin-top: 8vh;
+  }
+  .assistanceContainerContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .assistanceArrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-right: 2.5vw;
+  }
+  .assistanceArrow p {
+    font-size: 50px;
+    margin-top: 4vh;
+  }
+  .assistanceArrow img {
+    margin-top: 4vh;
+  }
+}

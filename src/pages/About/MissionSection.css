@@ -1,0 +1,266 @@
+/*========css for mission-vision ======== */
+.mission-section {
+  display: flex;
+  justify-content: center;
+}
+.mission-content {
+  width: 58vw;
+  height: 54vh;
+  background: rgba(61, 90, 128, 1);
+  border-radius: 4px;
+}
+.mission-content-image {
+  display: flex;
+  justify-content: center;
+}
+.mission-content-first-image {
+  width: 6vw;
+  height: 12vh;
+  margin-top: 5vh;
+  margin-left: 24vw;
+}
+.mission-content-second-image {
+  width: 30vw;
+  height: 18vh;
+  margin-top: 13vh;
+  /* max-width: 100%;
+  width: 48%;
+  height: auto;
+  margin-top: 11%; */
+}
+.mission-content-heading {
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.47px;
+  color: rgba(201, 222, 244, 1);
+  margin-left: 5vw;
+}
+.mission-content-description {
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.47px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 1vh;
+  margin-left: 5vw;
+}
+
+.buddy-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 28vw;
+  height: 54vh;
+  background: rgba(201, 222, 244, 1);
+  margin-left: 1.5vw;
+  border-radius: 4px;
+}
+.buddy-image img {
+  width: 16vw;
+  height: 75vh;
+  margin-top: 10vh;
+  margin-left: 0.5vw;
+}
+/* =============Responsive ==================*/
+@media (max-width: 480px) {
+  .mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-content {
+    width: 88vw;
+    height: auto;
+    margin: 2vh 0;
+  }
+
+  .mission-content-first-image {
+    width: 80vw;
+    height: auto;
+    margin-left: 40vw;
+    margin-bottom: 2vh;
+    object-fit: cover;
+  }
+
+  .mission-content-second-image {
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .mission-content-heading {
+    font-size: 34px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 1vh;
+    padding-left: 5vw;
+  }
+
+  .mission-content-description {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 2vh;
+    padding-left: 5vw;
+  }
+
+  .buddy-image {
+    width: 88vw;
+    height: auto;
+    margin-top: 4vh;
+  }
+
+  .buddy-image img {
+    width: 80vw;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-content {
+    width: 80vw;
+    height: auto;
+    margin: 2vh 0;
+  }
+
+  .mission-content-first-image {
+    width: 70vw;
+    height: auto;
+    margin-left: 40vw;
+    margin-bottom: 4vh;
+    object-fit: cover;
+  }
+
+  .mission-content-second-image {
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .mission-content-heading {
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 1vh;
+    padding-left: 5vw;
+  }
+
+  .mission-content-description {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 2vh;
+    padding-left: 5vw;
+  }
+
+  .buddy-image {
+    width: 80vw;
+    height: auto;
+    margin-top: 2vh;
+  }
+
+  .buddy-image img {
+    width: 60vw;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission-content {
+    width: 80vw;
+    height: auto;
+    margin: 2vh 0;
+  }
+
+  .mission-content-first-image {
+    width: 50vw;
+    height: auto;
+    margin-left: 40vw;
+    margin-bottom: 4vh;
+    object-fit: cover;
+  }
+
+  .mission-content-second-image {
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .mission-content-heading {
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 1vh;
+    padding-left: 5vw;
+  }
+
+  .mission-content-description {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 2vh;
+    padding-left: 5vw;
+  }
+
+  .buddy-image {
+    width: 80vw;
+    height: auto;
+    margin-top: 2vh;
+  }
+
+  .buddy-image img {
+    width: 60vw;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .mission-content .mission-content-heading {
+    font-size: 34px;
+  }
+
+  .mission-content .mission-content-description {
+    font-size: 1.9vw;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .mission-content-heading {
+    font-size: 40px;
+  }
+  .mission-content-description {
+    font-size: 24px;
+  }
+}
+
+/* Large screen  */
+
+@media (min-width: 1921px) {
+  .mission-content-heading {
+    font-size: 60px;
+  }
+  .mission-content-description {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+}

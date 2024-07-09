@@ -1,0 +1,39 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*========css for mission-vision-container======== */
+.missionVisionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  overflow-x: hidden;  /*manage overflow*/
+}
+
+/* ==========css for team seaction =========== */
+.teamSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+@media (max-width: 768px) {
+  .teamSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
+  .teamSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+}

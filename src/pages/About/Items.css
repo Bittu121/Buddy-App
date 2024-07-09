@@ -1,0 +1,231 @@
+.accordion-item {
+  margin-bottom: 10px;
+}
+.accordion {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(16, 24, 40, 1);
+}
+
+.panel {
+  padding: 0 15px;
+  transition: max-height 0.3s ease;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(88, 88, 90, 1);
+}
+.icon {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-color {
+  color: rgba(61, 90, 128, 1);
+}
+.divider {
+  width: 55vw;
+  height: 0.1vh;
+  background: rgba(234, 236, 240, 1);
+  margin-top: 1.2vh;
+  border: none;
+}
+/* =========Responsive============= */
+/* Note all change */
+@media (min-width: 320px) and (max-width: 375px) {
+  .accordion {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+  }
+
+  .panel {
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .divider {
+    width: 80vw;
+    height: 0.2vh;
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .accordion {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  .panel {
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  .icon {
+    font-size: 22px;
+  }
+
+  .divider {
+    width: 80vw;
+    height: 0.2vh;
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .accordion {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .panel {
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .divider {
+    width: 90vw;
+    height: 0.3vh;
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .accordion {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .panel {
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+
+  .divider {
+    width: 70vw;
+    height: 0.4vh;
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .accordion {
+    padding: 25px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .panel {
+    padding: 0 25px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .icon {
+    font-size: 32px;
+  }
+
+  .divider {
+    width: 64vw;
+    height: 0.5vh;
+    margin-top: 2.5vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .accordion {
+    padding: 18px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .panel {
+    padding: 0 18px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .icon {
+    font-size: 28px;
+  }
+
+  .divider {
+    width: 55vw;
+    height: 0.1vh;
+    margin-top: 1.2vh;
+  }
+}
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .accordion {
+    font-size: 22px;
+  }
+
+  .panel {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .divider {
+    width: 55vw;
+    height: 0.1vh;
+  }
+}
+/* Large screen */
+@media (min-width: 1921px) {
+  .accordion {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .panel {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .icon {
+    font-size: 48px;
+  }
+  .divider {
+    width: 55vw;
+    height: 0.2vh;
+    margin-top: 1.2vh;
+  }
+}

@@ -1,0 +1,147 @@
+.accordian-heading-container {
+  margin-top: 10vh;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-bottom: 20vh;
+}
+.accordian-heading-container h1 {
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0.0047em;
+  text-align: center;
+  color: rgba(16, 24, 40, 1);
+}
+.accordian-container-description {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(102, 112, 133, 1);
+  margin-top: 2.5vh;
+}
+
+.accordion-container {
+  margin-top: 8vh;
+}
+
+/* Styles for small screens */
+@media (max-width: 480px) {
+  .accordian-heading-container {
+    margin-top: 5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20vh;
+  }
+
+  .accordian-heading-container h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .accordian-container-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .accordian-heading-container {
+    margin-top: 8vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20vh;
+  }
+
+  .accordian-heading-container h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .accordian-container-description {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 2.5vh;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .accordian-heading-container {
+    margin-top: 9vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20vh;
+  }
+
+  .accordian-heading-container h1 {
+    font-size: 36px; /*6px*/
+    line-height: 40px;
+  }
+
+  .accordian-container-description {
+    font-size: 22px; /*2px*/
+    line-height: 28px;
+    margin-top: 2.5vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .accordian-heading-container {
+    margin-top: 10vh;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 20vh;
+  }
+
+  .accordian-heading-container h1 {
+    font-size: 36px; /*6px*/
+    line-height: 42px;
+  }
+  .accordian-container-description {
+    font-size: 22px; /*6px*/
+    line-height: 30px;
+    margin-top: 2.5vh;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .accordian-heading-container {
+    margin-top: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20vh;
+  }
+
+  .accordian-heading-container h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .accordian-container-description {
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: 2.5vh;
+  }
+}
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .accordian-heading-container h1 {
+    font-size: 46px;
+  }
+  .accordian-container-description {
+    font-size: 26px;
+  }
+}
+
+/* Large screen  */
+@media (min-width: 1921px) {
+  .accordian-heading-container h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .accordian-container-description {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}

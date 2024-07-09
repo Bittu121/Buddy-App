@@ -1,0 +1,256 @@
+/* ============ css for Terms and Conditions =========== */
+.termsAndConditions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.termsAndcConditionsHeading {
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8vh;
+}
+.termsAndConditionsContent {
+  margin-top: 5vh;
+  font-size: 20px;
+  line-height: 41px;
+  font-family: Raleway;
+  font-weight: 400;
+  color: rgba(88, 88, 90, 1);
+}
+.termsAndConditionsContent h2 {
+  font-size: 3vh;
+}
+.termsAndConditionsContent li {
+  margin-left: 4vw;
+  list-style-position: inside;
+  text-indent: -1.5em;
+}
+/* ============ css for Privacy and Policy =========== */
+.privacyPolicy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22vh;
+}
+.privacyPolicyHeading {
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8vh;
+}
+.privacyPolicyContent {
+  margin-top: 5vh;
+  font-size: 20px;
+  line-height: 41px;
+  font-family: Raleway;
+  font-weight: 400;
+  color: rgba(88, 88, 90, 1);
+}
+.privacyPolicyContent h2 {
+  font-size: 3vh;
+}
+
+.privacyPolicyContent li {
+  margin-left: 4vw;
+  list-style-position: inside;
+  text-indent: -1.5em;
+}
+/* ============ css for Responsive =========== */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 16px;
+    line-height: 34px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  /* for mobile view, fixed navbar */
+  /* .termsAndcConditionsHeading {
+    margin-top: 16vh;
+  } */
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 30px;
+    margin-top: 6vh;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 3vh;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  /* for mobile view, fixed navbar */
+  /* .termsAndcConditionsHeading {
+    margin-top: 14vh;
+  } */
+  /* for mobile view, fixed navbar */
+  /* .privacyPolicyContent {
+    margin-bottom: 5vh; 
+  } */
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 35px;
+    margin-top: 6vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 3vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* for mobile view, fixed navbar */
+  /* .termsAndcConditionsHeading {
+    margin-top: 14vh;
+  } */
+  /* for mobile view, fixed navbar */
+  /* .privacyPolicyContent {
+    margin-bottom: 5vh; 
+  } */
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 40px;
+    margin-top: 6vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 22px;
+    line-height: 38px;
+    margin-top: 3vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* for mobile view, fixed navbar */
+  /* .termsAndcConditionsHeading {
+    margin-top: 14vh;
+  } */
+  /* for mobile view, fixed navbar */
+  /* .privacyPolicyContent {
+    margin-bottom: 5vh; 
+  } */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 40px;
+    margin-top: 6vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 23px;
+    line-height: 38px;
+    margin-top: 3vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 35px;
+    margin-top: 6vh;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 23px;
+    line-height: 38px;
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .termsAndConditionsHeading,
+  .privacyPolicyHeading {
+    font-size: 40px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent {
+    font-size: 26px;
+    line-height: 51px;
+  }
+
+  .termsAndConditionsContent,
+  .privacyPolicyContent ul h2 {
+    font-size: 3.5vh;
+  }
+}
+
+@media (min-width: 1921px) {
+  .termsAndcConditionsHeading {
+    font-size: 75px;
+    margin-top: 10vh;
+  }
+  .termsAndConditionsContent {
+    margin-top: 5vh;
+    font-size: 40px;
+    line-height: 55px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgba(88, 88, 90, 1);
+  }
+  .termsAndConditionsContent h2 {
+    font-size: 60px;
+    margin-top: 8px;
+  }
+  .termsAndConditionsContent p {
+    padding: 2px 0px 2px 0px;
+  }
+  .privacyPolicyHeading {
+    font-size: 75px;
+    margin-top: 10vh;
+  }
+  .privacyPolicyContent {
+    margin-top: 5vh;
+    font-size: 40px;
+    line-height: 55px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgba(88, 88, 90, 1);
+  }
+  .privacyPolicyContent h2 {
+    font-size: 60px;
+    margin-top: 8px;
+  }
+
+  .privacyPolicyContent p {
+    padding: 2px 0px 2px 0px;
+  }
+}

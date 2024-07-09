@@ -1,0 +1,412 @@
+.navbarContainer {
+  color: #fff;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px;
+  width: 100%;
+  /* Sticky */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbarLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.navbarLogo img {
+  width: 25px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.navbarHeading {
+  color: #3d5a80;
+  font-family: outfit;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+.navbarLogo a {
+  text-decoration: none;
+}
+
+.navbarToggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 4px;
+}
+
+.navbarMenu {
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 41px;
+  font-weight: 400;
+}
+
+.navbarMenu li {
+  margin-right: 20px;
+}
+
+.navbarMenu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.activeLink {
+  background: linear-gradient(
+    91.29deg,
+    #3d5a80 0%,
+    #5cad64 110.17%,
+    rgba(61, 155, 254, 0.88) 128.98%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  color: black;
+  font-size: 18px;
+  font-family: Raleway;
+}
+.homeText,
+.aboutText,
+.servicesText,
+.termsAndConditionsText,
+.safetyText,
+.contactUsText {
+  font-family: Raleway;
+  font-size: 18px;
+  color: black;
+}
+.getTheAppButton {
+  background: linear-gradient(
+    91.29deg,
+    #3d5a80 0%,
+    #5cad64 110.17%,
+    rgba(61, 155, 254, 0.88) 128.98%
+  );
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  padding: 14px 22px;
+  font-size: 14px;
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: 21px;
+  cursor: pointer;
+  border-radius: 6px;
+  word-spacing: 0.1px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbarContainer {
+    /* position: fixed; */
+    top: 0;
+    z-index: 1000;
+    height: 82px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .navbarMenu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 24px;
+  }
+
+  .navbarMenu.active {
+    display: flex;
+  }
+  .navbarMenu li {
+    margin: 10px 0;
+  }
+
+  .navbarToggle {
+    display: flex;
+  }
+  .navbarMenu li .homeText,
+  .aboutText,
+  .servicesText,
+  .termsAndConditionsText,
+  .safetyText,
+  .contactUsText {
+    font-size: 24px;
+  }
+  .activeLink {
+    font-size: 24px;
+    font-family: Raleway;
+  }
+
+  /* Add */
+  .navbarLogo {
+    margin-left: 14.5vw;
+  }
+
+  .navbarLogo img {
+    width: 25px;
+    height: 35px;
+  }
+
+  .navbarHeading {
+    font-size: 24px;
+  }
+  /* .getTheAppButton {
+    padding: 12px 6px;
+    font-size: 16px;
+  } */
+  .getTheAppButton {
+    padding: 12px 6px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .getTheAppButton:hover {
+    background-color: #0056b3;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .navbarContainer {
+    /* position: fixed; */
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    box-sizing: border-box;
+  }
+  .navbarMenu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 24px;
+  }
+
+  .navbarMenu.active {
+    display: flex;
+  }
+  .navbarMenu li {
+    margin: 10px 0;
+  }
+
+  .navbarToggle {
+    display: flex;
+  }
+
+  .navbarMenu li .homeText,
+  .aboutText,
+  .servicesText,
+  .termsAndConditionsText,
+  .safetyText,
+  .contactUsText {
+    font-size: 24px;
+  }
+  .activeLink {
+    font-size: 24px;
+    font-family: Raleway;
+  }
+
+  /* Add */
+  .navbarLogo {
+    margin-left: 14vw;
+  }
+
+  .navbarLogo img {
+    width: 25px;
+    height: 35px;
+  }
+
+  .navbarHeading {
+    font-size: 24px;
+  }
+  .getTheAppButton {
+    padding: 18px 8px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbarContainer {
+    padding: 15px 15px;
+  }
+
+  .navbarLogo img {
+    width: 20px;
+    height: 30px;
+    margin-top: 3px;
+  }
+
+  .navbarHeading {
+    font-size: 30px;
+  }
+
+  .navbarMenu {
+    gap: 30px;
+  }
+
+  .navbarMenu li {
+    margin-right: 15px;
+    font-size: 30px;
+  }
+
+  .navbarMenu li a {
+    font-size: inherit;
+  }
+
+  .getTheAppButton {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navbarContainer {
+    padding: 18px 18px;
+  }
+
+  .navbarLogo img {
+    width: 22px;
+    height: 32px;
+    margin-top: 4px;
+  }
+
+  .navbarHeading {
+    font-size: 32px;
+  }
+
+  .navbarMenu {
+    gap: 35px;
+  }
+
+  .navbarMenu li {
+    margin-right: 18px;
+    font-size: 30px;
+  }
+
+  .navbarMenu li a {
+    font-size: inherit;
+  }
+
+  .getTheAppButton {
+    padding: 18px 26px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1450px) and (max-width: 1920px) {
+  .navbarLogo {
+    margin-left: 2.4vw;
+  }
+
+  .navbarLogo img {
+    width: 45px;
+    height: 50px;
+  }
+  .navbarHeading {
+    font-size: 50px;
+  }
+  .navbarMenu li {
+    gap: 61px;
+  }
+
+  .activeLink {
+    font-size: 28px;
+  }
+  .homeText,
+  .aboutText,
+  .servicesText,
+  .termsAndConditionsText,
+  .safetyText,
+  .contactUsText {
+    font-size: 28px;
+  }
+  .getTheAppButton {
+    padding: 24px 30px;
+    font-size: 22px;
+    line-height: 24px;
+    margin-right: 2.4vw;
+  }
+}
+
+/* Large screen  */
+@media (min-width: 1921px) {
+  .navbarContainer {
+    padding: 36px 36px;
+  }
+  .navbarLogo img {
+    width: 44px;
+    height: 64px;
+    margin-top: 8px;
+  }
+  .navbarHeading {
+    font-size: 64px;
+  }
+  .navbarMenu {
+    gap: 70px;
+  }
+  .navbarMenu li {
+    margin-right: 36px;
+    font-size: 60px;
+  }
+  .navbarMenu li a {
+    font-size: inherit;
+  }
+  .getTheAppButton {
+    padding: 36px 52px;
+
+    font-size: 36px;
+  }
+  .navbarMenu li .homeText,
+  .aboutText,
+  .servicesText,
+  .termsAndConditionsText,
+  .safetyText,
+  .contactUsText {
+    font-size: 35px;
+  }
+  .activeLink {
+    font-size: 35px;
+  }
+}

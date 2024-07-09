@@ -1,0 +1,493 @@
+/* ===========css for profile ============*/
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  margin-bottom: 15vh;
+}
+/* profile-container-one */
+.profileContainerOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: rgba(61, 90, 128, 1);
+  width: 28vw;
+  height: 56vh;
+  margin-right: 0.8vw;
+}
+.profileContentHeading {
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.4699999988079071px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 6vh;
+}
+.profileContent img {
+  border-radius: 4px;
+  width: 12vw;
+  height: 45vh;
+}
+#image2 {
+  margin-top: 2vh;
+}
+#thirdImage {
+  width: 58.05vw;
+  height: 56vh;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-left: 1.2vw;
+}
+/* profile-container-two  */
+.profileContainerTwo {
+  display: flex;
+  margin-top: 4vh;
+}
+.eventContent {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background: rgba(92, 173, 100, 1);
+  border-radius: 4px;
+}
+.eventContent h2 {
+  margin-top: 8vh;
+  margin-left: 1.5vw;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.eventContent p {
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.4699999988079071px;
+  color: rgba(255, 255, 255, 1);
+}
+.eventContent img {
+  width: 17vw;
+  height: 15vh;
+  margin-left: 2.5vw;
+}
+#image4 {
+  width: 43vw;
+  height: 80vh;
+  border-radius: 4px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+.verifiedProfileContent {
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  background: rgba(61, 90, 128, 1);
+  border-radius: 4px;
+}
+
+.verifiedProfileContent h2 {
+  margin-top: 8vh;
+  margin-left: 1.5vw;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.verifiedProfileContent p {
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4699999988079071px;
+  color: rgba(255, 255, 255, 1);
+}
+.verifiedProfileContent img {
+  width: 18vw;
+  height: 15vh;
+  margin-left: 3.5vw;
+}
+/* profile-container-three */
+.profileContainerThree {
+  display: flex;
+  margin-top: 4vh;
+}
+#fourthImage {
+  width: 58vw;
+  height: 56vh;
+  border-radius: 4px;
+  margin-right: 2vw;
+}
+.securePayment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 28vw;
+  height: 56vh;
+  border-radius: 4px;
+  background: rgba(61, 90, 128, 1);
+}
+.securePayment h2 {
+  text-align: center;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 4vh;
+}
+.securePayment img {
+  width: 20vw;
+  height: 87vh;
+  margin-right: 1vw;
+}
+
+/* ===========Responsive Design ==========*/
+@media (max-width: 480px) {
+  .profileContainerOne,
+  .profileContainerTwo,
+  .profileContainerThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* css profile-container-one */
+  .profileContent {
+    width: 90vw;
+    height: auto;
+  }
+  .profileContentHeading {
+    font-size: 30px;
+  }
+  .profileContent img {
+    width: 60vw;
+    height: auto;
+  }
+  #thirdImage {
+    width: 90vw;
+    height: auto;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+  /* css profile-container-two */
+  .eventContent {
+    width: 90vw;
+    height: 45vh;
+    background: rgba(92, 173, 100, 1);
+  }
+  .eventContent h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .eventContent p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .eventContent img {
+    width: 60vw;
+    height: auto;
+    margin-left: 28vw;
+  }
+  #image4 {
+    width: 90vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 0;
+  }
+  .verifiedProfileContent {
+    width: 90vw;
+    height: 45vh;
+    background: rgba(61, 90, 128, 1);
+    margin-top: 3vh;
+  }
+  .verifiedProfileContent h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .verifiedProfileContent p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .verifiedProfileContent img {
+    width: 60vw;
+    height: auto;
+    margin-left: 28vw;
+  }
+  /* css profile-container-three */
+  .securePayment {
+    width: 90vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+  }
+  .securePayment h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .securePayment img {
+    width: 60vw;
+    height: auto;
+  }
+  #fourthImage {
+    width: 90vw;
+    height: auto;
+    margin-right: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .profileContainerOne,
+  .profileContainerTwo,
+  .profileContainerThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profileContent {
+    width: 80vw;
+    height: auto;
+  }
+
+  .profileContentHeading {
+    font-size: 30px;
+  }
+
+  .profileContent img {
+    width: 50vw;
+    height: auto;
+  }
+
+  #thirdImage {
+    width: 80vw;
+    height: auto;
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+
+  .eventContent {
+    width: 80vw;
+    height: 55vh;
+    background: rgba(92, 173, 100, 1);
+  }
+
+  .eventContent h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .eventContent p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .eventContent img {
+    width: 50vw;
+    height: auto;
+    margin-left: 30vw;
+  }
+
+  #image4 {
+    width: 80vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 0;
+  }
+
+  .verifiedProfileContent {
+    width: 80vw;
+    height: 55vh;
+    background: rgba(61, 90, 128, 1);
+    margin-top: 3vh;
+  }
+
+  .verifiedProfileContent h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .verifiedProfileContent p {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .verifiedProfileContent img {
+    width: 50vw;
+    height: auto;
+    margin-left: 30vw;
+  }
+
+  .securePayment {
+    width: 80vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+  }
+
+  .securePayment h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .securePayment img {
+    width: 50vw;
+    height: auto;
+  }
+
+  #fourthImage {
+    width: 80vw;
+    height: auto;
+    margin-right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  .profileContainerOne,
+  .profileContainerTwo,
+  .profileContainerThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profileContent {
+    width: 70vw;
+    height: auto;
+  }
+
+  .profileContentHeading {
+    font-size: 26px;
+  }
+
+  .profileContent img {
+    width: 40vw;
+    height: auto;
+  }
+
+  #thirdImage {
+    width: 70vw;
+    height: auto;
+    margin-left: 0;
+    margin-top: 4vh;
+  }
+
+  .eventContent {
+    width: 70vw;
+    height: 35vh;
+    background: rgba(92, 173, 100, 1);
+  }
+
+  .eventContent h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .eventContent p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .eventContent img {
+    width: 40vw;
+    height: auto;
+    margin-left: 30vw;
+  }
+
+  #image4 {
+    width: 70vw;
+    height: auto;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+
+  .verifiedProfileContent {
+    width: 70vw;
+    height: 35vh;
+    background: rgba(61, 90, 128, 1);
+    margin-top: 4vh;
+  }
+
+  .verifiedProfileContent h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .verifiedProfileContent p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .verifiedProfileContent img {
+    width: 40vw;
+    height: auto;
+    margin-left: 30vw;
+  }
+
+  .securePayment {
+    width: 70vw;
+    height: auto;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+
+  .securePayment h2 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .securePayment img {
+    width: 40vw;
+    height: auto;
+  }
+
+  #fourthImage {
+    width: 70vw;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1450px)and(mx-width: 1920px){
+  .verifiedProfileContent p {
+    font-size: 22px;
+  }
+  .eventContent p {
+    font-size: 20px;
+  }
+}
+/* Large screen  */
+@media (min-width: 1921px) {
+  .verifiedProfileContent p {
+    font-size: 39px;
+  }
+  .eventContent p {
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    font-family: Outfit;
+    font-size: 39px;
+    font-weight: 500;
+    letter-spacing: -0.4699999988079071px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .securePayment h2 {
+    text-align: center;
+    font-family: Outfit;
+    font-size: 55px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 4vh;
+  }
+}

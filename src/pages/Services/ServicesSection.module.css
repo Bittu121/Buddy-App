@@ -1,0 +1,63 @@
+/* ============css for service ============*/
+.servicesSection {
+  text-align: center;
+  margin-top: 11vh;
+}
+.servicesHeading {
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 75px;
+  color: rgba(61, 90, 128, 1);
+}
+/* Responsive Design */
+@media (max-width: 480px) {
+  .servicesHeading {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+  .servicesHeading {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .servicesHeading {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .servicesHeading {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .servicesHeading {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1920px){
+  .servicesHeading {
+    font-size: 60px;
+  }
+}
+/* Large Screen  */
+@media (min-width: 1921px) {
+  .servicesHeading {
+    font-family: Outfit;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 75px;
+    color: rgba(61, 90, 128, 1);
+  }
+}

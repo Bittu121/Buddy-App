@@ -1,0 +1,1180 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* ============Traveling heading ==============*/
+.traveling-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+.traveling-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.traveling-contact-title {
+  color: rgba(66, 103, 124, 1);
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 10vh;
+}
+.traveling-contact-description {
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 5vh;
+}
+
+.home-form-container {
+  display: flex;
+  flex-direction: row;
+  width: 52.8vw;
+  height: 12.5vh;
+}
+.input-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 21px 6px 21px;
+  border-radius: 4px;
+  border: 1px 0px 0px 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(224, 224, 224, 0.53);
+  box-shadow: 0px 4px 8.2px 0px rgba(0, 0, 0, 0.26);
+  gap: 10px;
+}
+#mail-icon {
+  width: 18px;
+  height: 18px;
+  border: 2px 0px 0px 0px;
+  border: 2px solid rgba(113, 113, 113, 1);
+  border: none;
+}
+.input-field #input-box {
+  width: 19.8vw;
+  height: 3.9vh;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+  border: none;
+  outline: none;
+}
+.signup-button {
+  margin-left: 1vw;
+  padding: 13px 10px 13px 10px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  background: linear-gradient(
+    91.29deg,
+    #3d5a80 0%,
+    #5cad64 110.17%,
+    rgba(61, 155, 254, 0.88) 128.98%
+  );
+  box-shadow: -6px -6px 15px 0px rgba(35, 70, 109, 0.9) inset;
+
+  box-shadow: 6px 6px 12px 0px rgba(87, 176, 255, 0.9) inset;
+
+  box-shadow: -6px 6px 12px 0px rgba(35, 70, 109, 0.2) inset;
+
+  box-shadow: 6px -6px 12px 0px rgba(35, 70, 109, 0.2) inset;
+
+  box-shadow: 1px 1px 2px 0px rgba(35, 70, 109, 0.5);
+
+  box-shadow: -1px -1px 2px 0px rgba(87, 176, 255, 0.3);
+}
+.signup-button-text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* ============ image section =============*/
+.home-image-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+/* images-container-first */
+.images-container-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 13vh;
+}
+.first-image {
+  /* width: 62;
+  height: 100vh; */
+  width: 44vw;
+  height: 100vh;
+}
+.iphone-text-content {
+  margin-top: 17vh;
+  /* margin-right: 110px; */
+  margin-right: auto;
+  margin-left: 11vw;
+}
+.iphone-text {
+  width: 221px;
+  height: 62px;
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 61.2px;
+  text-align: center;
+  color: rgba(113, 113, 113, 1);
+}
+.iphone-heading {
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61.2px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+.iphone-description {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: rgba(113, 113, 113, 1);
+}
+/* images-container-second */
+.images-container-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 13vh;
+}
+.second-image {
+  /* width: 40vw;
+  height: 85vh; */
+  /* width: 62;
+  height: 100vh; */
+  width: 44vw;
+  height: 100vh;
+}
+.iphone-new-text-content {
+  margin-top: 17vh;
+  /* margin-left: 160px; */
+  margin-left: auto;
+  margin-right: 8vw;
+}
+.iphone-new-text {
+  width: 307px;
+  height: 62px;
+  font-family: Outfit;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 61.2px;
+  color: rgba(113, 113, 113, 1);
+}
+.iphone-new-text-heading {
+  width: 474px;
+  height: 123px;
+  font-family: Outfit;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61.2px;
+  text-align: left;
+  .text-background {
+    background: linear-gradient(0deg, #000000, #000000),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+.iphone-new-description {
+  width: 488px;
+  height: 117px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(113, 113, 113, 1);
+}
+
+/* ============Card Section ==============*/
+.card {
+  width: 87vw;
+  height: 74.4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 88px 29px 88px 29px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.26);
+  margin-left: 6vw;
+  margin-top: 15vh;
+}
+.card-shadow {
+  display: flex;
+  width: 82.7vw;
+  height: 45.4vh;
+  left: 29px;
+  gap: 39px;
+}
+.card-content {
+  width: 24.1vw;
+  height: 38vh;
+}
+.tourist-card-details {
+  display: flex;
+  flex-direction: column;
+  width: 24.1vw;
+  height: 24.7vh;
+}
+.tourist-card-title {
+  margin-top: 6vh;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(24, 24, 27, 1);
+}
+.ambulance-card-title {
+  margin-top: 3vh;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(24, 24, 27, 1);
+}
+.government-card-title {
+  margin-top: 3vh;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(24, 24, 27, 1);
+}
+.tourist-card-description,
+.ambulance-card-description,
+.government-card-description {
+  margin-top: 5vh;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(82, 82, 91, 1);
+}
+.vertical-line {
+  width: 0.01vw;
+  height: 40vh;
+  border: 1px solid rgba(228, 228, 231, 1);
+}
+
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */
+.main-container {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*================Responsive============== */
+
+@media (max-width: 480px) {
+  /* ============Traveling heading ==============*/
+  @media screen and (max-width: 480px) {
+    .traveling-contact {
+      padding: 20px;
+    }
+    .traveling-contact-title {
+      font-size: 28px;
+      text-align: center;
+      margin-top: 4vh; /* Add for navbar fixed */
+    }
+    .traveling-contact-description {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+
+  .home-form-container {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .input-field #input-box {
+    width: 80vw;
+    height: auto;
+    font-size: 18px;
+    outline: none;
+  }
+  #mail-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .signup-button {
+    width: 80vw;
+    padding: 20px;
+    margin-left: unset;
+  }
+  .signup-button-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* ============ image section =============*/
+  /* images-container-first */
+  .images-container-first {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0;
+  }
+  .first-image {
+    width: 88vw;
+    height: auto;
+    margin: 4vh auto 0 auto;
+  }
+  .iphone-text-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .iphone-text {
+    font-size: 22px;
+    width: 100%;
+    display: block;
+  }
+  .iphone-heading {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .iphone-description {
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* images-container-second */
+  .images-container-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .second-image {
+    width: 88vw;
+    height: auto;
+    margin-top: 6vh;
+  }
+  .iphone-new-text-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .iphone-new-text {
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .iphone-new-text-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+  .iphone-new-description {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  /* ============Card Section ==============*/
+  .card {
+    width: 87vw;
+    /* height: 74.4vh; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(247, 252, 253);
+    margin-left: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .card-shadow {
+    display: flex;
+    width: 100%;
+    height: auto;
+    left: 0;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-content {
+    width: 100%;
+    height: auto;
+  }
+  .tourist-card-details {
+    width: 100%;
+    height: auto;
+  }
+  .tourist-card-title,
+  .ambulance-card-title,
+  .government-card-title {
+    margin-top: 2vh;
+    font-size: 16px;
+    text-align: center;
+  }
+  .tourist-card-description,
+  .ambulance-card-description,
+  .government-card-description {
+    margin-top: 2vh;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .bell-icon,
+  .ambulance-icon,
+  .government-icon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* ============Traveling heading ==============*/
+  .traveling-contact {
+    padding: 30px;
+  }
+  .traveling-contact-title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .traveling-contact-description {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .home-form-container {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .input-field {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .input-field #input-box {
+    width: 60vw;
+    height: auto;
+    font-size: 22px;
+    outline: none;
+  }
+  #mail-icon {
+    width: 24px;
+    height: 24px;
+  }
+  #home-page-signup-button {
+    width: 63vw;
+    padding: 15px;
+  }
+  .signup-button-text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .signup-button{
+    margin-left: unset;
+  }
+  /* ============Card Section ==============*/
+  .card {
+    width: 87vw;
+    height: 74.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgb(247, 252, 253);
+    margin-left: 6vw;
+    margin-top: 5vh;
+  }
+  .card-shadow {
+    display: flex;
+    width: 100%;
+    height: auto;
+    left: 0;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-content {
+    width: 100%;
+    height: auto;
+  }
+  .tourist-card-details {
+    width: 100%;
+    height: auto;
+  }
+  .tourist-card-title,
+  .ambulance-card-title,
+  .government-card-title {
+    margin-top: 2vh;
+    font-size: 16px;
+    text-align: center;
+  }
+  .tourist-card-description,
+  .ambulance-card-description,
+  .government-card-description {
+    margin-top: 2vh;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .bell-icon,
+  .ambulance-icon,
+  .government-icon {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  /* images-container-first */
+  .images-container-first {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0;
+  }
+  .first-image {
+    width: 75vw;
+    height: auto;
+    margin: 4vh auto 0 auto;
+  }
+  .iphone-text-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .iphone-text {
+    font-size: 30px;
+    width: 100%;
+    display: block;
+  }
+  .iphone-heading {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .iphone-description {
+    font-size: 28px;
+    text-align: center;
+    line-height: 28px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  /* images-container-second */
+  .images-container-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .second-image {
+    width: 75vw;
+    height: auto;
+    margin-top: 6vh;
+  }
+  .iphone-new-text-content {
+    margin-left: 0;
+  }
+  .iphone-new-text {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .iphone-new-text-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .iphone-new-description {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  /* images-container-first */
+  .images-container-first {
+    display: flex;
+    margin-top: 4vh;
+  }
+  .first-image {
+    width: 50vw;
+    height: auto;
+  }
+  .iphone-text-content {
+    margin-left: 4vw;
+  }
+  .iphone-text {
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+  }
+  .iphone-heading {
+    font-size: 24px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .iphone-description {
+    font-size: 24px;
+    text-align: left;
+    line-height: 28px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* images-container-second */
+  .images-container-second {
+    display: flex;
+    margin-top: 4vh;
+  }
+  .second-image {
+    width: 50vw;
+    height: auto;
+  }
+  .iphone-new-text-content {
+    margin-left: 2vw;
+  }
+  .iphone-new-text {
+    font-size: 30px;
+    text-align: left;
+  }
+  .iphone-new-text-heading {
+    font-size: 20px;
+  }
+  .iphone-new-description {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* ============Traveling heading ==============*/
+  .traveling-contact {
+    padding: 30px;
+  }
+  .traveling-contact-title {
+    font-size: 36px;
+    text-align: center;
+  }
+  .traveling-contact-description {
+    font-size: 36px;
+    text-align: center;
+  }
+  .home-form-container {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    align-items: center;
+  }
+
+  .input-field {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .input-field #input-box {
+    width: 60vw;
+    height: auto;
+    font-size: 22px;
+    outline: none;
+  }
+  #mail-icon {
+    width: 24px;
+    height: 24px;
+  }
+  #home-page-signup-button {
+    width: 63vw;
+    padding: 15px;
+  }
+  .signup-button-text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  /* ============Card Section ==============*/
+  .tourist-card-description,
+  .ambulance-card-description,
+  .government-card-description {
+    margin-top: 2vh;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  /* images-container-first */
+  /* .images-container-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .first-image {
+    width: 44vw;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .iphone-text-content {
+    margin-top: 0;
+    margin-left: 5vw;
+    text-align: left;
+  }
+  .iphone-text {
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .iphone-heading {
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-description {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  } */
+  .images-container-first {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .first-image {
+    width: 54vw;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 4vh;
+  }
+
+  .iphone-text-content {
+    margin-top: 0;
+    text-align: center;
+  }
+  .iphone-text {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .iphone-heading {
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-description {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+  /* images-container-second */
+  /* .images-container-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .second-image {
+    width: 44vw;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .iphone-new-text-content {
+    margin-top: 0;
+    margin-right: 5vw;
+    text-align: left;
+  }
+
+  .iphone-new-text {
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .iphone-new-text-heading {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-new-description {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  } */
+  .images-container-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .second-image {
+    width: 54;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 4vh;
+  }
+
+  .iphone-new-text-content {
+    margin-top: 0;
+    margin-right: 5vw;
+    text-align: center;
+  }
+
+  .iphone-new-text {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .iphone-new-text-heading {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-new-description {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* ============Card Section ==============*/
+  .tourist-card-description,
+  .ambulance-card-description,
+  .government-card-description {
+    margin-top: 2vh;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  /* images-container-first */
+  .images-container-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .first-image {
+    width: 44vw;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .iphone-text-content {
+    margin-top: 0;
+    margin-left: 11vw;
+    text-align: left;
+  }
+
+  .iphone-text {
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .iphone-heading {
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-description {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+  /* images-container-second */
+  .images-container-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .second-image {
+    width: 44vw;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .iphone-new-text-content {
+    margin-top: 0;
+    margin-right: 5vw;
+    text-align: left;
+  }
+
+  .iphone-new-text {
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .iphone-new-text-heading {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .iphone-new-description {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+/* Large screen  */
+@media (min-width: 1921px) {
+  .traveling-contact-title {
+    font-size: 50px;
+  }
+  .traveling-contact-description {
+    font-size: 90px;
+    text-align: center;
+  }
+  .home-form-container {
+    margin-top: 4vh;
+  }
+  #mail-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .input-field #input-box {
+    font-size: 36px;
+  }
+  .signup-button-text {
+    font-size: 36px;
+  }
+
+  /* images-container-first */
+  .first-image {
+    width: 44vw;
+    height: auto;
+  }
+  .iphone-text-content {
+    margin-top: 17vh;
+    margin-right: auto;
+    margin-left: 11vw;
+  }
+  .iphone-text {
+    width: 100%;
+    text-align: left;
+    font-size: 60px;
+    line-height: 81.2px;
+  }
+  .iphone-heading {
+    font-size: 70px;
+    line-height: 81.2px;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+  }
+  .iphone-description {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+  }
+  /* images-container-second */
+  .second-image {
+    width: 44vw;
+    height: auto;
+  }
+  .iphone-new-text-content {
+    margin-top: 17vh;
+    margin-left: auto;
+    margin-right: 6.5vw;
+  }
+  .iphone-new-text {
+    width: 100%;
+    font-size: 60px;
+    line-height: 81.2px;
+  }
+  .iphone-new-text-heading {
+    font-size: 70px;
+    line-height: 81.2px;
+  }
+  .iphone-new-description {
+    width: 100%;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.01em;
+  }
+  /* card */
+  .card {
+    width: 87vw;
+    height: 74.4vh;
+    margin-left: 6vw;
+    margin-top: 15vh;
+  }
+  .card-shadow {
+    width: 82.7vw;
+    height: 45.4vh;
+    left: 29px;
+    gap: 39px;
+  }
+  .card-content {
+    width: 24.1vw;
+    height: 38vh;
+  }
+  .tourist-card-details {
+    display: flex;
+    flex-direction: column;
+    width: 24.1vw;
+    height: 24.7vh;
+  }
+  .tourist-card-title {
+    margin-top: 6vh;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .ambulance-card-title {
+    margin-top: 7vh;
+    font-size: 30px;
+    line-height: 30 px;
+  }
+  .government-card-title {
+    margin-top: 5.7vh;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .tourist-card-description,
+  .ambulance-card-description,
+  .government-card-description {
+    margin-top: 5vh;
+    font-size: 30px;
+    line-height: 54px;
+  }
+  .vertical-line {
+    width: 0.01vw;
+    height: 40vh;
+  }
+  .bell-icon,
+  .ambulance-icon,
+  .government-icon {
+    width: 4vw;
+  }
+}
